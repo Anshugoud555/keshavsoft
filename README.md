@@ -54,7 +54,18 @@ The design is inspired by the simplicity and elegance of modern Apple/macOS inte
 10. Deployed the website using GitHub Pages / Netlify
 
 ## File Structure
-bootstrap-website/ │── index.html # Home Page │── about.html # About Page │── contact.html # Contact Page │ ├── assets/ │ ├── css/ │ │ └── style.css # Custom styles and animations │ └── js/ │ └── script.js # Placeholder for future scripts │ └── README.md # Project documentation
+bootstrap-website/ 
+│── index.html # Home Page 
+│── about.html # About Page 
+│── contact.html # Contact Page 
+│ 
+├── assets/ 
+│   ├── css/ 
+│   │   └── style.css # Custom styles and animations 
+│   └── js/ 
+│       └── script.js # Placeholder for future scripts 
+│ 
+└── README.md # Project documentation
 
 
 ## Time Taken
