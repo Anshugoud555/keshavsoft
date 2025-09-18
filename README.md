@@ -51,23 +51,7 @@ The design is inspired by the simplicity and elegance of modern Apple/macOS inte
 7. Applied branding: Website named Nimbus Web with professional, consistent content
 8. Enhanced UI with animations, transitions, rounded corners, and spacing
 9. Tested responsiveness across desktop, tablet, and mobile devices
-10. Deployed the website using GitHub Pages / Netlify
-
-bootstrap-website/
-│
-├── index.html          # Home Page
-├── about.html          # About Page
-├── contact.html        # Contact Page
-│
-├── assets/
-│   ├── css/
-│   │   └── styles.css  # Custom styles and animations
-│   ├── js/
-│   │   └── script.js   # Placeholder for future scripts
-│   └── img/
-│       └── nimbus-logo.svg   # Logo and other images
-│
-└── README.md           # Project documentation
+10. Deployed the website using GitHub Pages.
 
 ## Time Taken
 
