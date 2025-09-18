@@ -1,46 +1,79 @@
-# Bootstrap Website
+Nimbus Web
+A professional and responsive 3-page website built with Bootstrap 5.
 
-## Overview
-This project is a responsive website built using Bootstrap 5. It consists of three main pages: Home, About, and Contact. The website features a common layout with a navigation bar and footer, ensuring a consistent user experience across all pages.
+Project Overview
+Nimbus Web is a clean and branded website created to practice and showcase skills in UI/UX design, Bootstrap, and deployment. The design was inspired by the simplicity and elegance of modern Apple/macOS interfaces, focusing on minimalism, consistency, and smooth user experience.
 
-## Project Structure
-The project is organized as follows:
+It includes:
+Home Page → Hero section, features, call-to-action
+About Page → Information about Nimbus Web with accordion for mission, vision, and team
+Contact Page → Contact form with Name, Email, and Message fields
 
-```
-bootstrap-website
-├── src
-│   ├── assets
-│   │   └── css
-│   │       └── styles.css
-│   ├── components
-│   │   ├── navbar.html
-│   │   └── footer.html
-│   ├── index.html
-│   ├── about.html
-│   └── contact.html
-├── README.md
-```
+Features
+Responsive Layout → Works across desktop, tablet, and mobile
+Professional UI with:
+Rounded corners
+Subtle shadows
+Glassmorphism-inspired effect on some cards
+Consistent accent color scheme
+Animations and Effects
+Smooth hover animations on buttons and cards
+Navbar style changes on scroll
+Accordion with smooth expand/collapse
+Transition effects on interactive elements
+Reusable Layout → Common navbar and footer across all pages
+Navigation Links → All pages are properly linked and consistent
 
-## Features
-- **Home Page**: 
-  - A hero section with a heading, subtext, and a button linking to the About page.
-  - A Bootstrap grid containing 3 cards, each with an image placeholder, title, short text, and a button.
+Tools and Technologies Used
+HTML5 → Structure of the website
+CSS3 → Custom styling and animations (assets/css/style.css)
+Bootstrap 5 → Grid system, navbar, forms, cards, accordion, responsive design
+JavaScript → Placeholder (assets/js/script.js) for future enhancements
+Visual Studio Code → Code editor
+Live Server (VS Code Extension) → Local testing and preview
+GitHub → Version control and repository hosting
+GitHub Pages / Netlify → Deployment and hosting
+AI Tools (GitHub Copilot + ChatGPT) → For generating code snippets, refining UI, and speeding up development
 
-- **About Page**: 
-  - Contains a heading "About Us" with 2-3 paragraphs of placeholder text.
-  - A Bootstrap accordion with three sections: Our Mission, Our Team, and Our Goals.
+How I Built It (Step by Step)
+Set up project folder and files (index.html, about.html, contact.html, assets/css/style.css, assets/js/script.js).
+Added Bootstrap 5 CDN for CSS and JS.
+Built a sticky navbar and footer, consistent across all pages.
+Designed Home Page → Hero section, feature cards, call-to-action.
+Created About Page → Text + image section, accordion for mission/vision/team.
+Built Contact Page → Contact form with inputs and submit button.
+Applied branding → Website name “Nimbus Web”, professional text instead of placeholders.
+Enhanced UI → Added hover animations, transitions, rounded cards, and clean spacing.
+Tested responsiveness across desktop, tablet, and mobile devices.
+Deployed website using GitHub Pages/Netlify.
 
-- **Contact Page**: 
-  - Features a Bootstrap contact form with fields for Name, Email, and a Message textarea, along with a Submit button.
+File Structure
+bootstrap-website/
+│── index.html         # Home Page
+│── about.html         # About Page
+│── contact.html       # Contact Page
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css  # Custom styles and animations
+│   └── js/
+│       └── script.js  # Placeholder for future scripts
+│
+└── README.md          # Project documentation
 
-## Setup Instructions
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Open the `index.html`, `about.html`, or `contact.html` files in your web browser to view the website.
-4. Ensure you have an internet connection to load Bootstrap 5 from the CDN.
+Time Taken
+The entire project was completed in 30–35 minutes using Bootstrap and AI tools for assistance.
 
-## Custom Styles
-Custom styles can be added in the `src/assets/css/styles.css` file to enhance the appearance of the website.
+Learning Outcomes
+Learned how to use Bootstrap 5 effectively for fast development
+Improved design sense by following modern minimal layouts
+Gained experience with animations and transitions for a professional look
+Practiced GitHub workflow (push, repo management)
+Learned deployment process with GitHub Pages / Netlify
+Used AI tools (Copilot + ChatGPT) effectively while still controlling design and structure
 
+Links
+GitHub Repository → [Add Repo Link Here]
+Live Website → [Add Live Link Here]
 ## License
 This project is licensed under the MIT License.
