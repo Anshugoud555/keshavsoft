@@ -73,7 +73,7 @@ Learned deployment process with GitHub Pages / Netlify
 Used AI tools (Copilot + ChatGPT) effectively while still controlling design and structure
 
 Links
-GitHub Repository → [Add Repo Link Here]
-Live Website → [Add Live Link Here]
+GitHub Repository → 
+Live Website → https://anshugoud555.github.io/keshavsoft/
 ## License
 This project is licensed under the MIT License.
