@@ -1,0 +1,201 @@
+/* Make logo images white in navbar and footer */
+.navbar-brand img,
+.footer img {
+    filter: brightness(0) invert(1) grayscale(1) contrast(100);
+}
+
+/* Make all Bootstrap icons pure white and consistent */
+.icon i,
+.footer i,
+.glass-card i,
+.navbar-nav i {
+    color: #fff !important;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.08));
+}
+/* Apple-inspired, minimal, glassmorphism styles */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(120deg, #F5F3FF 60%, #E0E7FF 100%);
+    color: #1E293B;
+    letter-spacing: 0.01em;
+}
+}
+
+/* Glassmorphism Navbar */
+.glass-nav {
+    background: linear-gradient(90deg, rgba(124,58,237,0.7) 0%, rgba(14,165,233,0.7) 100%);
+    backdrop-filter: blur(16px) saturate(180%);
+    box-shadow: 0 2px 16px rgba(124,58,237,0.08);
+    border-bottom: 1px solid rgba(124,58,237,0.12);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+.nav-solid {
+    background: linear-gradient(90deg, #7C3AED 0%, #0EA5E9 100%) !important;
+    box-shadow: 0 2px 16px rgba(14,165,233,0.12);
+}
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222 !important;
+    margin-left: 1.2rem;
+    transition: color 0.2s;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #7C3AED !important;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 70vh;
+    background: linear-gradient(120deg, #F5F3FF 60%, #E0E7FF 100%);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.glass-card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(18px) saturate(180%);
+    box-shadow: 0 8px 32px rgba(124,58,237,0.10);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(124,58,237,0.12);
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+.glass-card:hover {
+    box-shadow: 0 16px 40px rgba(244,114,182,0.18);
+    transform: translateY(-4px) scale(1.02);
+}
+
+/* Feature Cards */
+.feature-card {
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+.feature-card:hover {
+    box-shadow: 0 16px 40px rgba(14,165,233,0.18);
+    transform: translateY(-6px) scale(1.03);
+}
+.icon {
+    background: linear-gradient(135deg, #7C3AED 0%, #0EA5E9 100%);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+}
+
+/* Accordion */
+.accordion-item {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.accordion-button {
+    background: rgba(255,255,255,0.7);
+    color: #222;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem 1rem 0 0;
+    transition: background 0.2s, color 0.2s;
+}
+.accordion-button:not(.collapsed) {
+    background: #E0E7FF;
+    color: #7C3AED;
+}
+.accordion-body {
+    background: rgba(255,255,255,0.5);
+    border-radius: 0 0 1rem 1rem;
+}
+
+/* Form Styles */
+.glass-card form .form-control {
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid #e3e3e3;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+.glass-card form .form-control:focus {
+    border-color: #7C3AED;
+    box-shadow: 0 0 0 2px rgba(124,58,237,0.15);
+}
+.glass-card form .btn-primary {
+    background: linear-gradient(90deg, #7C3AED 0%, #0EA5E9 100%);
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(124,58,237,0.10);
+    transition: box-shadow 0.2s, background 0.2s;
+}
+.glass-card form .btn-primary:hover {
+    background: linear-gradient(90deg, #F472B6 0%, #14B8A6 100%);
+    box-shadow: 0 4px 16px rgba(244,114,182,0.18);
+}
+
+/* Footer */
+.footer {
+    background: transparent;
+    color: #888;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.98rem;
+}
+.footer hr {
+    border: none;
+    border-top: 1px solid #e3e3e3;
+    margin-bottom: 1rem;
+}
+.footer a {
+    color: #888;
+    transition: color 0.2s;
+}
+.footer a:hover {
+    color: #7C3AED;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    .glass-card {
+        padding: 2rem 1rem;
+    }
+}
+@media (max-width: 576px) {
+    .display-3 {
+        font-size: 2rem;
+    }
+    .glass-card {
+        padding: 1.2rem 0.5rem;
+    }
+}
+
+/* Scroll Indicator */
+.scroll-indicator {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    position: relative;
+}
+    .scroll-indicator span {
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: linear-gradient(135deg, #7C3AED 0%, #0EA5E9 100%);
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        animation: scrollBounce 1.2s infinite;
+    }
+@keyframes scrollBounce {
+    0%, 100% { top: 0; opacity: 1; }
+    50% { top: 20px; opacity: 0.5; }
+}

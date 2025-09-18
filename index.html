@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Nimbus Web</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+        <!-- Glassmorphism Sticky Navbar -->
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light fixed-top glass-nav py-2">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/img/nimbus-logo.svg" alt="Nimbus Web Logo" width="32" height="32" class="me-2">
+                    <span class="fw-bold">Nimbus Web</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="glass-card p-5 rounded-4 shadow-lg mt-5 animate__animated animate__fadeInDown">
+                <h1 class="display-3 fw-bold mb-3">Welcome to Nimbus Web — Redefining Simplicity</h1>
+                <p class="lead mb-4">Nimbus Web delivers a seamless, modern experience for professionals and teams. Discover a platform where design meets performance, and usability is at the heart of every feature.</p>
+                <a href="about.html" class="btn btn-primary btn-lg rounded-pill shadow-sm animate__animated animate__pulse animate__infinite">Learn More</a>
+            </div>
+            <div class="scroll-indicator mt-5">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-4 col-12">
+                    <div class="feature-card glass-card text-center p-4 rounded-4 shadow-sm h-100 animate__animated animate__fadeInUp" style="animation-delay:0.1s;">
+                        <div class="icon mb-3"><i class="bi bi-lightning" style="font-size:2rem;color:#007aff;"></i></div>
+                        <h5 class="fw-bold mb-2">Fast, Secure, Responsive</h5>
+                        <p class="text-muted mb-3">Nimbus Web is engineered for speed, security, and flawless performance on any device.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="feature-card glass-card text-center p-4 rounded-4 shadow-sm h-100 animate__animated animate__fadeInUp" style="animation-delay:0.2s;">
+                        <div class="icon mb-3"><i class="bi bi-palette" style="font-size:2rem;color:#007aff;"></i></div>
+                        <h5 class="fw-bold mb-2">Modern Design</h5>
+                        <p class="text-muted mb-3">A clean, minimal interface inspired by Apple, designed for professionals and teams.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="feature-card glass-card text-center p-4 rounded-4 shadow-sm h-100 animate__animated animate__fadeInUp" style="animation-delay:0.3s;">
+                        <div class="icon mb-3"><i class="bi bi-emoji-smile" style="font-size:2rem;color:#007aff;"></i></div>
+                        <h5 class="fw-bold mb-2">User-Friendly Experience</h5>
+                        <p class="text-muted mb-3">Intuitive navigation and thoughtful details make Nimbus Web easy and enjoyable to use.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer mt-auto py-4">
+            <hr class="mb-3" style="opacity:.2;">
+            <div class="container text-center text-muted small">
+                &copy; 2025 Nimbus Web. All rights reserved.
+                <div class="mt-2">
+                    <a href="#" class="mx-2 text-muted"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="mx-2 text-muted"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="mx-2 text-muted"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        <!-- Call-to-Action Section -->
+        <section class="container text-center py-5 animate__animated animate__fadeInUp" style="max-width:700px;">
+            <div class="glass-card p-4 rounded-4 shadow-lg">
+                <h2 class="fw-bold mb-3">Ready to start?</h2>
+                <p class="mb-4">Contact us today and discover how Nimbus Web can elevate your digital presence.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg rounded-pill">Contact Us</a>
+            </div>
+        </section>
+        </footer>
+
+        <!-- Bootstrap JS Bundle CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Animate.css CDN for animations -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script>
+            // Navbar glass/solid effect on scroll
+            window.addEventListener('scroll', function() {
+                const nav = document.getElementById('mainNavbar');
+                if(window.scrollY > 30) {
+                    nav.classList.add('nav-solid');
+                } else {
+                    nav.classList.remove('nav-solid');
+                }
+            });
+        </script>
+</body>
+</html>
